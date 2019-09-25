@@ -1,0 +1,57 @@
+/* Intro to CSS */
+
+
+main {
+	text-align: center; 
+	max-width: 200mm;
+	border: 12px; 
+	border-bottom-style: solid;
+	border-bottom-width: 12px;
+}
+
+h1 {
+	font-size: 10mm;
+	font-family:"Futura Std Bold";
+    color: #00D6D7;
+	text-align: center;
+}
+
+h3 {
+	font-size: 6mm;
+    font-family: "Futura Std Bold";
+    color: #00D6D7;
+	text-transform: none;
+	letter-spacing: 2px;
+	margin-left: 80px;
+	margin-right: 80px;
+}
+
+body {
+	font-size: 4mm;
+	font-family: "Futura Std Medium";
+		color: #FFFFFF;	
+	background-color: #494949; 
+	text-align: center;
+	margin: 80px;
+	
+}
+a {
+    color: #DE23B6;
+}
+
+p{
+	text-indent: 2em;
+	text-align: center;
+}
+
+ul {
+	font-style: italic;
+	text-align: center;
+	list-style-type: none;
+	
+}
+li:before {
+	content: '\2022';
+	margin-left: -0.75em;
+	position: absolute;
+}
